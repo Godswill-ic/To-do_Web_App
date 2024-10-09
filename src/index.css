@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width: 500px){
+  .todo-container{
+    max-width: 310px;
+    padding: 28px;
+  }
+  .input-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%; 
+  }
+
+  .input-div input {
+    flex: 1; 
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 0;
+    font-size: 14px;
+  }
+
+  .todo-btn {
+    width: 80px; 
+    padding-left: 5px; 
+    padding-right: 5px;
+    flex-shrink: 0; 
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .input-p{
+    width: 210px;
+    font-size: 14px;
+  }
+}
